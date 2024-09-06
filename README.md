@@ -38,8 +38,9 @@ You can modify the styles by editing the style.css or utility.css files.
 3. Updating Icons:
 If you'd like to update any icons or images, replace the corresponding .svg or .png files under the assets/ folder.
 
-# Attached Snapshots
-# 
+# Snapshots
+# <img width="1432" alt="Screenshot 2024-09-06 at 9 35 17 PM" src="https://github.com/user-attachments/assets/5ab3c9ec-4c96-4318-845f-3fbfba173614">
+
 
 # Future Enhancements
 1. Integration with Music APIs: Fetch music dynamically from APIs like Spotify or Deezer.
