@@ -1,0 +1,176 @@
+.border {
+    border: 2px solid red;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    /* background-color: #199ad; */
+    background-color: #121212;
+    /* background-color: #121212; */
+    color: white;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+/* scroll bar */
+/* Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Thinner scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Darker track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; /* Darker thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777; /* Slightly lighter thumb on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* Thinner scrollbar */
+  scrollbar-color: #555 #333; /* Darker thumb and track */
+}
+
+/* Edge, IE */
+*::-ms-scrollbar {
+  width: 8px; /* Thinner scrollbar */
+}
+
+*::-ms-scrollbar-track {
+  background: #333; /* Darker track background */
+}
+
+*::-ms-scrollbar-thumb {
+  background: #555; /* Darker thumb */
+  border-radius: 4px;
+}
+
+*::-ms-scrollbar-thumb:hover {
+  background: #777; /* Slightly lighter thumb on hover */
+}
+
+
+/* green range bar */
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: #ccc; /* Track background color */
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background: #ffffff; /* Thumb color */
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Thumb border color */
+    margin-top: -6px; /* Align thumb with track */
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: #ccc; /* Track background color */
+    border-radius: 5px;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background: #ffffff; /* Thumb color */
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Thumb border color */
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+    background: #4CAF50; /* Change this to your desired color */
+    border-radius: 5px;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: #ccc; /* Track background color */
+    border-radius: 5px;
+}
+
+input[type="range"]::-ms-thumb {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background: #ffffff; /* Thumb color */
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Thumb border color */
+}
+
+/* Change the background of the track before the thumb */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #4CAF50 0%, #4CAF50 var(--value), #ccc var(--value), #ccc 100%);
+}
+
+input[type="range"]::-moz-range-track {
+    background: linear-gradient(to right, #4CAF50 0%, #4CAF50 var(--value), #ccc var(--value), #ccc 100%);
+}
+
+input[type="range"]::-ms-fill-lower {
+    background: #4CAF50; /* Change this to your desired color */
+}
+
+input[type="range"]::-ms-fill-upper {
+    background: #ccc; /* Track background color */
+}
