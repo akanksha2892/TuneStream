@@ -3,30 +3,24 @@
 TuneStream is a music streaming web application built using HTML, CSS, and JavaScript. The application offers categorized playlists, an interactive UI, and a library of music with different genres for users to enjoy.
 
 # Features
-Predefined playlists such as "Chill", "Drive", "Fresh", "Hindi", "Pop", "Lofi", "International", "Punjabi", "Romance", and "Sleep".
+* Predefined playlists such as "Chill", "Drive", "Fresh", "Hindi", "Pop", "Lofi", "International", "Punjabi", "Romance", and "Sleep".
 
-The application is fully responsive, adapting to different screen sizes.
+* The application is fully responsive, adapting to different screen sizes.
 
-Clean and simple icons for music control (play, pause, next, previous, etc.) and navigation.
+* Clean and simple icons for music control (play, pause, next, previous, etc.) and navigation.
 
-Styling with a combination of style.css and utility.css.
+* Styling with a combination of style.css and utility.css.
 
-Different categories of songs are organized in folders, making it easy to extend and manage the music library.
+* Different categories of songs are organized in folders, making it easy to extend and manage the music library.
 
 # File Stucture
-assets: Contains icons and image assets used in the project
-
-songs: Contains all song files organized by genre.
-
-favicon.ico : Favicon for the web application
-
-index.html : Main HTML file
-
-script.js : JavaScript file containing the functionality
-
-style.css : Main stylesheet for the application
-
-utility.css : Utility CSS for additional styling
+assets: Contains icons and image assets used in the project<br>
+songs: Contains all song files organized by genre. <br>
+favicon.ico : Favicon for the web application <br>
+index.html : Main HTML file <br>
+script.js : JavaScript file containing the functionality <br>
+style.css : Main stylesheet for the application <br>
+utility.css : Utility CSS for additional styling <br>
 
 # Customization
 1. Adding New Songs:
